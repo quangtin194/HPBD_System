@@ -77,12 +77,14 @@ The user accesses the ESP32 Web Server from a browser, enters the name of the pe
 8. Enter the recipient's name and select the countdown value.
 9. Press the start button and let the ESP32 perform the birthday greeting sequence.
 
-## Demo
+### Hardware
 
-Real-world photos and demonstration media will be added later.
+![Hardware Setup](images/hardware.jpg)
+
+### Simulation
+
+[Watch Simulation Video](https://youtu.be/b1tK0uNU7_0?si=z7oQshxnRUlQgoXX)
 
 ## Author
 
 Lê Quang Tín
-
-GitHub: quangtin194
