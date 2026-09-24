@@ -52,7 +52,7 @@ The user accesses the ESP32 Web Server from a browser, enters the name of the pe
                 │       ↓              │
                 │  Control Logic       │
                 └──────┬─────┬─────┬───┘
-                       │     │     │
+                   SPI │     │GPIO │   PWM
                  ┌─────┘     │     └─────┐
                  ▼           ▼           ▼
           ┌────────────┐ ┌──────────┐ ┌─────────────┐
@@ -65,25 +65,6 @@ The user accesses the ESP32 Web Server from a browser, enters the name of the pe
                              ▼
                     Birthday Greeting
 ```
-
-## Project Structure
-
-```text
-ESP32_BIRTHDAY/
-├── src/
-│   ├── main.cpp
-│   ├── oled.cpp
-│   ├── oled.h
-│   ├── buzzer.cpp
-│   ├── buzzer.h
-│   ├── led7.cpp
-│   └── led7.h
-├── platformio.ini
-└── README.md
-```
-
-The project uses a modular architecture in which each peripheral is implemented as a separate module. `main.cpp` handles the main application logic and Web Server, while the peripheral modules provide dedicated APIs for the OLED, buzzer, and 7-segment LED.
-
 ## How to Use
 
 1. Clone the repository.
