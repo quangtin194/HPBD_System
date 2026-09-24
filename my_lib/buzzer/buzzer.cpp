@@ -21,7 +21,6 @@ static uint16_t duration[] =
 };
 
 // ==== FUNCTIONS ===
-
 void Buzzer_init (uint8_t pin, uint8_t channel) {
     buzzer_pin = pin;
     buzzer_channel = channel;

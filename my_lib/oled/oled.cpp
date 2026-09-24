@@ -13,7 +13,6 @@ void Oled_init(uint8_t sda, uint8_t scl)
     }
 
     Serial.println("OLED init OK");
-
     display.clearDisplay();
     display.display();
 }

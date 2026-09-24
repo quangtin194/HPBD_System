@@ -1,10 +1,11 @@
 #include "led7.h"
-//  Led 7 seg Cathode (1 = Led on)
+
 // === VARIABLES ===
 static uint8_t Led7_pin_arr [7] = {};
 static uint8_t seg7Code [] = 
 {
     // abcdefg dp
+    //  Led 7 seg Cathode (1 = Led on)
     0x3F, // 0
     0x06, // 1
     0x5B, // 2

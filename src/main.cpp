@@ -43,6 +43,7 @@ void work()
     server.send(200, "text/html", html_success);
 }
 
+// === SETUP & SUPER LOOP ===
 void setup() {
   Serial.begin(9600);
 
